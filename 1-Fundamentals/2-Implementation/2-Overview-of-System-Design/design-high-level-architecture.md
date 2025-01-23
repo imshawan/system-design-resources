@@ -57,13 +57,13 @@ The architecture can be visually represented as follows:
 
 ```mermaid
 flowchart TD
-  User[User Interface (Frontend)]
+  User[User Interface - Frontend]
   API[API Request]
   LoadBalancer[Load Balancer]
   Backend[Backend Service]
   URLService[URL Generation Service]
-  Cache[Cache Layer (Redis)]
-  Database[Database (PostgreSQL/MongoDB)]
+  Cache[Cache Layer - Redis]
+  Database[Database - PostgreSQL/MongoDB]
   Analytics[Analytics Module]
   CDN[Content Delivery Network]
 
