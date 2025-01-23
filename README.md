@@ -93,37 +93,37 @@ Here’s a detailed breakdown of the **chapters** for the first section, **Funda
         - Definition and history of CAP Theorem.
         - Explaining consistency, availability, and partition tolerance.
         - Why you can only pick two of the three.
-    2. **Real-World Implications of CAP**
+    2. **[Real-World Implications of CAP](1-Fundamentals/1.4-CAP-Theorem-and-PACELC-Theorem/2-Real-World-Implications-of-CAP/README.md)**
         - Examples of systems focusing on consistency (e.g., relational databases).
         - Examples of systems focusing on availability (e.g., NoSQL databases).
         - How network partitions affect system behavior.
-    3. **PACELC Theorem**
+    3. **[PACELC Theorem](1-Fundamentals/1.4-CAP-Theorem-and-PACELC-Theorem/3-PACELC%20Theorem/README.md)**
         - Introduction to PACELC (Partitioning, Availability, Consistency, Else Latency, Consistency).
         - Real-world examples of latency vs consistency trade-offs.
         - Comparing CAP and PACELC with diagrams.
-    4. **Hands-On Exercises**
+    4. **[Hands-On Exercises](1-Fundamentals/1.4-CAP-Theorem-and-PACELC-Theorem/4-Hands-On-Exercises/README.md)**
         - Create a partitioned system simulation and test availability vs consistency trade-offs.
         - Discuss PACELC in context of popular systems like DynamoDB or Cassandra.
 
 ---
 
-#### **1.5 Consistency Models (Strong, Eventual, Causal)**
+#### **[1.5 Consistency Models (Strong, Eventual, Causal)](1-Fundamentals/1.5-Consistency-Models-Strong-Eventual-Causal/README.md)**
 
 - **Purpose**: Explore different consistency models used in distributed systems.
 - **Chapters**:
-    1. **Introduction to Consistency**
+    1. **[Introduction to Consistency](1-Fundamentals/1.5-Consistency-Models-Strong-Eventual-Causal/1-Introduction-to-Consistency/README.md)**
         - What is consistency in distributed systems?
         - Why consistency is challenging in distributed environments.
-    2. **Strong Consistency**
+    2. **[Strong Consistency](1-Fundamentals/1.5-Consistency-Models-Strong-Eventual-Causal/2-Strong-Consistency/README.md)**
         - Definition and examples (e.g., RDBMS with ACID properties).
         - Trade-offs and use cases.
-    3. **Eventual Consistency**
+    3. **[Eventual Consistency](1-Fundamentals/1.5-Consistency-Models-Strong-Eventual-Causal/3-Eventual-Consistency/README.md)**
         - Definition and examples (e.g., DynamoDB, Cassandra).
         - How eventual consistency works (e.g., anti-entropy, read-repair).
-    4. **Causal Consistency**
+    4. **[Causal Consistency](1-Fundamentals/1.5-Consistency-Models-Strong-Eventual-Causal/4-Causal-Consistency/README.md)**
         - Definition and examples (e.g., Git versioning).
         - Use cases where causal consistency is essential.
-    5. **Hands-On Exercises**
+    5. **[Hands-On Exercises](1-Fundamentals/1.5-Consistency-Models-Strong-Eventual-Causal/5-Hands-On-Exercises/README.md)**
         - Simulate strong, eventual, and causal consistency in a distributed environment.
         - Implement a simple key-value store with eventual consistency.
 
