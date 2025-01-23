@@ -14,78 +14,82 @@ Here’s a detailed breakdown of the **chapters** for the first section, **Funda
 
 ### **1. Fundamentals of System Design**
 
-#### **1.1 Overview of System Design**
+#### **[1.1 Overview of System Design](1-Fundamentals/1.1-Overview-of-System-Design/README.md)**
 
 - **Purpose**: Understand what system design is and its importance in solving real-world engineering problems.
 - **Chapters**:
-    1. **Introduction to System Design**
-        - What is system design?
-        - Difference between high-level and low-level design.
+    1. **[Introduction to System Design](1-Fundamentals/1.1-Overview-of-System-Design/README.md)**
+        - [What is system design?](1-Fundamentals/1.1-Overview-of-System-Design/1-System-Design/1-what-is-system-design.md)
+        - [Difference between high-level and low-level design.](1-Fundamentals/1.1-Overview-of-System-Design/1-System-Design/2-high-and-low-level-designs.md)
         - Examples of real-world systems (e.g., e-commerce, social media platforms).
-    2. **Why System Design Matters**
+            1. [E-commerce Platform System Design](1-Fundamentals/1.1-Overview-of-System-Design/1-System-Design/3-example.md)
+            2. [System Design for Online Streaming Service](1-Fundamentals/1.1-Overview-of-System-Design/1-System-Design/4-example.md)
+            3. [System Design for Social Media Platform](1-Fundamentals/1.1-Overview-of-System-Design/1-System-Design/5-example.md)
+            4. [System Design for Online Education Platform](1-Fundamentals/1.1-Overview-of-System-Design/1-System-Design/6-example.md)
+    2. **[Why System Design Matters](1-Fundamentals/1.1-Overview-of-System-Design/2-Why-it-Matters/README.md)**
         - Impact on scalability, reliability, and maintainability.
         - Role of system design in interviews and real-world projects.
-    3. **System Design Process**
+    3. **[System Design Process](1-Fundamentals/1.1-Overview-of-System-Design/3-The-Process/README.md)**
         - Gathering requirements.
         - Defining key use cases and constraints.
         - Designing high-level architecture and low-level components.
-    4. **Types of System Design**
+    4. **[Types of System Design](1-Fundamentals/1.1-Overview-of-System-Design/4-The-Types/README.md)**
         - Designing web applications vs distributed systems.
         - Real-time systems vs batch systems.
         - Offline-first systems vs always-online systems.
 
 ---
 
-#### **1.2 Principles of Scalability, Availability, and Reliability**
+#### **[1.2 Principles of Scalability, Availability, and Reliability](1-Fundamentals/1.2-Principles-of-Scalability-Availability-and-Reliability/README.md)**
 
 - **Purpose**: Learn core principles that guide the design of robust systems.
 - **Chapters**:
-    1. **Scalability**
+    1. **[Scalability](1-Fundamentals/1.2-Principles-of-Scalability-Availability-and-Reliability/1-Scalability/README.md)**
         - Vertical scaling vs horizontal scaling.
         - Stateless vs stateful architectures.
         - Examples of scalable designs (e.g., distributed databases).
-    2. **Availability**
+    2. **[Availability](1-Fundamentals/1.2-Principles-of-Scalability-Availability-and-Reliability/2-Availability/README.md)**
         - Definitions: Availability vs uptime.
         - Designing for high availability (HA).
         - Redundancy and failover mechanisms.
-    3. **Reliability**
+    3. **[Reliability](1-Fundamentals/1.2-Principles-of-Scalability-Availability-and-Reliability/3-Reliability/README.md)**
         - Reliability vs availability.
         - Fault tolerance and graceful degradation.
         - Techniques for improving reliability (e.g., retries, idempotency).
-    4. **Trade-offs Between Scalability, Availability, and Reliability**
+    4. **[Trade-offs Between Scalability, Availability, and Reliability](1-Fundamentals/1.2-Principles-of-Scalability-Availability-and-Reliability/4-Trade-offs/README.md)**
         - How to balance trade-offs based on requirements.
         - Real-world examples of trade-offs.
 
 ---
 
-#### **1.3 Key Metrics: Latency, Throughput, Response Time, etc.**
+#### **[1.3 Key Metrics: Latency, Throughput, Response Time, etc.](1-Fundamentals/1.3-Key-Metrics-Latency-Throughput-Response-Time-etc/README.md)**
 
 - **Purpose**: Understand key performance metrics for evaluating system efficiency.
 - **Chapters**:
-    1. **Latency**
+    1. **[Latency](1-Fundamentals/1.3-Key-Metrics-Latency-Throughput-Response-Time-etc/1-Latency/README.md)**
         - Network latency vs application latency.
         - Sources of latency in distributed systems.
         - Techniques for reducing latency (e.g., caching, CDN).
-    2. **Throughput**
+    2. **[Throughput](1-Fundamentals/1.3-Key-Metrics-Latency-Throughput-Response-Time-etc/2-Throughput/README.md)**
         - Definition and measurement.
         - Maximizing throughput with parallel processing and batching.
-    3. **Response Time**
+    3. **[Response Time](1-Fundamentals/1.3-Key-Metrics-Latency-Throughput-Response-Time-etc/3-Response-Time/README.md)**
         - Average response time vs percentile response times (e.g., P99).
         - How to optimize response times.
-    4. **Connections Between Metrics**
+    4. **[Connections Between Metrics](1-Fundamentals/1.3-Key-Metrics-Latency-Throughput-Response-Time-etc/4-Connections-Between-Metrics/README.md)**
         - How latency and throughput interact.
         - Choosing the right metrics based on system requirements.
-    5. **Hands-On Exercises**
+    5. **[Hands-On Exercises](1-Fundamentals/1.3-Key-Metrics-Latency-Throughput-Response-Time-etc/5-Hands-On-Exercises/README.md)**
         - Simulate latency and throughput scenarios (e.g., HTTP requests under load).
         - Use tools like Apache JMeter or k6 for load testing.
 
 ---
 
-#### **1.4 CAP Theorem and PACELC Theorem**
+#### **[1.4 CAP Theorem and PACELC Theorem](1-Fundamentals/1.4-CAP-Theorem-and-PACELC-Theorem/README.md)**
 
 - **Purpose**: Learn how distributed systems balance trade-offs in consistency, availability, and partition tolerance.
 - **Chapters**:
-    1. **CAP Theorem Basics**
+    1. **[CAP Theorem Basics](1-Fundamentals/1.4-CAP-Theorem-and-PACELC-Theorem/1-CAP-Theorem-Basics/README.md)**
         - Definition and history of CAP Theorem.
         - Explaining consistency, availability, and partition tolerance.
         - Why you can only pick two of the three.
