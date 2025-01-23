@@ -136,29 +136,29 @@ Here’s a detailed breakdown of the **chapters** for the first section, **Funda
     - Map out a flow of metrics (latency, throughput) for a sample architecture.
 
 
-#### **1. Overview of System Design**
+#### **[1. Overview of System Design](1-Fundamentals/2-Implementation/2-Overview-of-System-Design/README.md)**
 
-1. **Gathering Requirements**:
-    - Define functional and non-functional requirements for a simple system like a URL shortener.
-    - Identify constraints such as data storage, scalability, and high availability.
-2. **Design High-Level Architecture**:
-    - Use tools like draw.io or Lucidchart to create a high-level architecture diagram for the system.
-    - Include components such as frontend, backend, database, and caching layer.
-3. **Explore Trade-offs**:
-    - Discuss trade-offs in choosing a relational database vs a NoSQL database for the system.
-    - Create a document explaining decisions made based on scalability and consistency requirements.
+1.  **[Gathering Requirements](1-Fundamentals/2-Implementation/2-Overview-of-System-Design/gathering-requirements.md)**:
+    -   Define functional and non-functional requirements for a simple system like a URL shortener.
+    -   Identify constraints such as data storage, scalability, and high availability.
+2.  **[Design High-Level Architecture](1-Fundamentals/2-Implementation/2-Overview-of-System-Design/design-high-level-architecture.md)**:
+    -   Use tools like [draw.io](http://draw.io) or Lucidchart to create a high-level architecture diagram for the system.
+    -   Include components such as frontend, backend, database, and caching layer.
+3.  **[Explore Trade-offs](1-Fundamentals/2-Implementation/2-Overview-of-System-Design/explore-trade-offs.md)**:
+    -   Discuss trade-offs in choosing a relational database vs a NoSQL database for the system.
+    -   Create a document explaining decisions made based on scalability and consistency requirements.
 
 ---
 
-#### **2. Principles of Scalability, Availability, and Reliability**
+#### **[2. Principles of Scalability, Availability, and Reliability](1-Fundamentals/2-Implementation/3-Principles-of-Scalability-Availability-and-Reliability/README.md)**
 
-1. **Scalability**:
+1. **[Scalability](1-Fundamentals/2-Implementation/3-Principles-of-Scalability-Availability-and-Reliability/scalability.md)**:
     - Implement a load balancer using tools like Nginx or HAProxy to distribute traffic.
     - Create a script to simulate increasing traffic and observe how horizontal scaling affects performance.
-2. **Availability**:
+2. **[Availability](1-Fundamentals/2-Implementation/3-Principles-of-Scalability-Availability-and-Reliability/availability.md)**:
     - Design and implement a failover mechanism for a database using read replicas.
     - Perform manual failover testing to ensure availability during primary database downtime.
-3. **Reliability**:
+3. **[Reliability](1-Fundamentals/2-Implementation/3-Principles-of-Scalability-Availability-and-Reliability/reliability.md)**:
     - Implement a retry mechanism in an HTTP client to handle transient failures.
     - Add idempotency logic to an API endpoint to ensure consistent behavior during retries.
 
