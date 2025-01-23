@@ -1,4 +1,4 @@
-## **[1.5 Consistency Models (Strong, Eventual, Causal)](./README.md)**
+## **1.5 Consistency Models (Strong, Eventual, Causal)**
 
 - **Purpose**: Explore different consistency models used in distributed systems.
 - **Chapters**:

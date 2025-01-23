@@ -1,4 +1,4 @@
-## **[1.4 CAP Theorem and PACELC Theorem](./README.md)**
+## **1.4 CAP Theorem and PACELC Theorem**
 
 - **Purpose**: Learn how distributed systems balance trade-offs in consistency, availability, and partition tolerance.
 - **Chapters**:

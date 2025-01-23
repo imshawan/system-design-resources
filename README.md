@@ -129,9 +129,9 @@ Here’s a detailed breakdown of the **chapters** for the first section, **Funda
 
 ---
 
-### **Implementation Tasks for Fundamentals**
+### **[Implementation Tasks for Fundamentals](1-Fundamentals/2-Implementation/README.md)**
 
-- **Drawing and Planning**:
+- **[Drawing and Planning](1-Fundamentals/2-Implementation/1-Drawing-and-Planning/README.md)**:
     - Create diagrams to explain CAP and PACELC trade-offs.
     - Map out a flow of metrics (latency, throughput) for a sample architecture.
 
