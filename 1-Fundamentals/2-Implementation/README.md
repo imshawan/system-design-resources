@@ -47,28 +47,28 @@
 
 ----------
 
-### **4. CAP Theorem and PACELC Theorem**
+### **[4. CAP Theorem and PACELC Theorem](./5-CAP-Theorem-and-PACELC-Theorem/README.md)**
 
-1.  **CAP Trade-offs**:
+1.  **[CAP Trade-offs](./5-CAP-Theorem-and-PACELC-Theorem/cap-trade-offs.md)**:
     -   Set up a distributed key-value store (e.g., Consul or Etcd).
     -   Simulate network partitions and observe behavior when prioritizing consistency vs availability.
-2.  **PACELC Exploration**:
+2.  **[PACELC Exploration](./5-CAP-Theorem-and-PACELC-Theorem/pacelc-exploration.md)**:
     -   Use a NoSQL database like DynamoDB or MongoDB to demonstrate latency vs consistency trade-offs.
     -   Write a report comparing latency in strongly consistent and eventually consistent reads.
-3.  **Visualization**:
+3.  **[Visualization](./5-CAP-Theorem-and-PACELC-Theorem/visualization.md)**:
     -   Create diagrams illustrating scenarios where CAP and PACELC apply.
     -   Include real-world examples of systems (e.g., DynamoDB for AP, Spanner for CP).
 
 ----------
 
-### **5. Consistency Models (Strong, Eventual, Causal)**
+### **[5. Consistency Models (Strong, Eventual, Causal)](./6-Consistency-Models-Strong-Eventual-Causal/README.md)**
 
-1.  **Strong Consistency Implementation**:
+1.  **[Strong Consistency Implementation](./6-Consistency-Models-Strong-Eventual-Causal/strong-consistency-implementation.md)**:
     -   Create a relational database setup with ACID properties (e.g., PostgreSQL).
     -   Write a script to test transactional consistency by simulating concurrent writes.
-2.  **Eventual Consistency Simulation**:
+2.  **[Eventual Consistency Simulation](./6-Consistency-Models-Strong-Eventual-Causal/eventual-consistency-simulation.md)**:
     -   Build a simple distributed key-value store where nodes asynchronously replicate data.
     -   Test consistency by performing writes and observing when all nodes eventually converge.
-3.  **Causal Consistency Experiment**:
+3.  **[Causal Consistency Experiment](./6-Consistency-Models-Strong-Eventual-Causal/causal-consistency-experiment.md)**:
     -   Implement a versioning system (e.g., using vector clocks) to simulate causal consistency.
     -   Create scenarios demonstrating causal relationships, such as a collaborative editing tool.
