@@ -164,17 +164,17 @@ Here’s a detailed breakdown of the **chapters** for the first section, **Funda
 
 ---
 
-#### **3. Key Metrics: Latency, Throughput, Response Time**
+#### **[3. Key Metrics: Latency, Throughput, Response Time](1-Fundamentals/2-Implementation/4-Key-Metrics-Latency-Throughput-Response-Time-etc/README.md)**
 
-1. **Latency Measurement**:
-    - Write a script to send HTTP requests to a mock server and measure response times.
-    - Visualize latency distribution (e.g., using histograms or percentiles like P99).
-2. **Throughput Analysis**:
-    - Simulate a workload with multiple concurrent requests using a tool like Apache JMeter or k6.
-    - Measure the maximum requests per second (RPS) the system can handle before latency degrades.
-3. **Response Time Optimization**:
-    - Introduce caching at the application layer (e.g., with Redis) to reduce response times.
-    - Compare response times with and without caching enabled.
+1.  **[Latency Measurement](1-Fundamentals/2-Implementation/4-Key-Metrics-Latency-Throughput-Response-Time-etc/latency-measurement.md)**:
+    -   Write a script to send HTTP requests to a mock server and measure response times.
+    -   Visualize latency distribution (e.g., using histograms or percentiles like P99).
+2.  **[Throughput Analysis](1-Fundamentals/2-Implementation/4-Key-Metrics-Latency-Throughput-Response-Time-etc/throughput-analysis.md)**:
+    -   Simulate a workload with multiple concurrent requests using a tool like Apache JMeter or k6.
+    -   Measure the maximum requests per second (RPS) the system can handle before latency degrades.
+3.  **[Response Time Optimization](1-Fundamentals/2-Implementation/4-Key-Metrics-Latency-Throughput-Response-Time-etc/response-time-optimization.md)**:
+    -   Introduce caching at the application layer (e.g., with Redis) to reduce response times.
+    -   Compare response times with and without caching enabled.
 
 ---
 
