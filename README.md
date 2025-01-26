@@ -1,4 +1,12 @@
-## **Fundamentals of System Design**
+## **Getting Started with System Design**
+
+<details>
+<summary>
+    <h3>
+        <strong>1. Fundamentals of System Design</strong>
+    </h3>
+</summary>
+
 
 #### Purpose:
 
@@ -11,8 +19,6 @@ Build foundational knowledge about what system design is and why it matters.
 Here’s a detailed breakdown of the **chapters** for the first section, **Fundamentals of System Design**. Each chapter is designed to provide foundational knowledge and hands-on exercises for practical understanding.
 
 ---
-
-### **1. Fundamentals of System Design**
 
 #### **[1.1 Overview of System Design](1-Fundamentals/1.1-Overview-of-System-Design/README.md)**
 
@@ -206,7 +212,7 @@ Here’s a detailed breakdown of the **chapters** for the first section, **Funda
 
 ---
 
-#### **Final Project for Fundamentals**
+#### **Project suggestion for practicing the "Fundamentals"**
 
 - **System Design Case Study**:
     - Design a simple, distributed chat application with the following requirements:
@@ -217,6 +223,8 @@ Here’s a detailed breakdown of the **chapters** for the first section, **Funda
         - High-level architecture diagram.
         - CAP and PACELC trade-off decisions.
         - Explanation of chosen consistency model.
-        - Implementation of core features with a focus on latency, scalability, and reliability.
+        - Implementation of core features focusing on latency, scalability, and reliability.
+     
+</details>
 
 ---
