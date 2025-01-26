@@ -1,6 +1,6 @@
 # **Getting Started with System Design**
 
-## 1. Fundamentals of System Design</strong>
+## 1. Fundamentals of System Design
 
 
 #### Purpose:
