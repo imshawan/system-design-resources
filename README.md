@@ -1,11 +1,6 @@
-## **Getting Started with System Design**
+# **Getting Started with System Design**
 
-<details>
-<summary>
-    <h3>
-        <strong>1. Fundamentals of System Design</strong>
-    </h3>
-</summary>
+## 1. Fundamentals of System Design</strong>
 
 
 #### Purpose:
@@ -225,6 +220,5 @@ Here’s a detailed breakdown of the **chapters** for the first section, **Funda
         - Explanation of chosen consistency model.
         - Implementation of core features focusing on latency, scalability, and reliability.
      
-</details>
 
 ---
