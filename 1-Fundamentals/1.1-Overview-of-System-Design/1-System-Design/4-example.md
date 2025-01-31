@@ -82,6 +82,7 @@
           end_date DATE,
           payment_status ENUM('SUCCESS', 'FAILED', 'PENDING')
         );
+        ```
         
     -   **API Endpoints**:
         -   `/createSubscription`: Starts a new subscription.

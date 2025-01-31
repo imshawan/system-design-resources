@@ -63,7 +63,8 @@
           ranking_score FLOAT,
           PRIMARY KEY (user_id, post_id)
         );
-        
+        ```
+
     -   **Workflow**:
         1.  User opens the feed.
         2.  Service queries the Feed table for the top-ranked posts.
@@ -111,6 +112,7 @@
           impressions INT,
           clicks INT
         );
+        ```
         
     -   **Workflow**:
         1.  Advertiser uploads an ad and specifies the target audience.

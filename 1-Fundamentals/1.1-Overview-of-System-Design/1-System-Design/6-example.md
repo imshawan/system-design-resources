@@ -74,6 +74,7 @@
           url TEXT,
           created_at TIMESTAMP
         );
+        ```
         
     -   **Workflow**:
         1.  Instructor uploads course materials.
@@ -103,6 +104,7 @@
               "content": "This is a discussion post.",
               "timestamp": "2025-01-01T10:00:00Z"
             }
+            ```
             
 4.  **Certification System**:
     

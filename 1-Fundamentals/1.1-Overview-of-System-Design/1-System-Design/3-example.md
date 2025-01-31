@@ -55,6 +55,7 @@
           quantity INT NOT NULL,
           added_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         );
+        ```
         
     -   **APIs**:
         -   **Add Item to Cart**: Validates product availability and adds it to the cart.
@@ -81,6 +82,7 @@
             }
           }
         }
+        ```
         
 3.  **Recommendation Engine**:
     

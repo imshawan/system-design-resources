@@ -84,6 +84,7 @@ A failover mechanism involves the following components:
         --db-instance-identifier db-replica-1 \
         --source-db-instance-identifier db-primary \
         --region us-east-1
+    ```
     
 3.  Enable **Multi-AZ** for automatic failover:
     
@@ -125,6 +126,7 @@ A failover mechanism involves the following components:
             ```bash
             aws rds promote-read-replica \
                 --db-instance-identifier db-replica-1
+            ```
             
 3.  **Update Application Configuration**: Update the application's database connection string to point to the new primary.
     
@@ -173,6 +175,7 @@ A failover mechanism involves the following components:
         
         ```sql
         SELECT * FROM pg_stat_replication;
+        ```
         
     -   Use cloud monitoring tools like AWS CloudWatch for metrics such as replication lag and instance health.
         
