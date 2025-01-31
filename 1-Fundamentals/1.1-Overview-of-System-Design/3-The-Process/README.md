@@ -104,6 +104,7 @@ Once the requirements and constraints are understood, the next step is to design
           status ENUM('pending', 'completed', 'failed'),
           created_at TIMESTAMP
         );
+        ```
         
     -   **API Endpoint**: `/processPayment` which accepts payment details and returns a status (success/failure).
     -   **Payment Algorithm**: The system will interact with external APIs like Stripe to process payments, with retry logic in case of network failure.
